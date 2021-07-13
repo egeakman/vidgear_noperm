@@ -125,6 +125,8 @@ setup(
         "vidgear",
         "write",
         "anywhere",
+        "no",
+        "permission",
         "multithreading",
         "FFmpeg",
         "picamera",
