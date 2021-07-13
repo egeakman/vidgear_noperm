@@ -95,7 +95,7 @@ setup(
     long_description=long_description,
     long_description_content_type="text/markdown",
     author_email="egeakmanegeakman@hotmail.com",
-    url="https://github.com/egeakman/vidgear_write_anywhere",
+    url="https://github.com/egeakman/vidgear_noperm",
     extras_require={
         "asyncio": [
             "starlette{}".format(latest_version("starlette")),
