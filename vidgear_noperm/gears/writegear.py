@@ -116,7 +116,7 @@ class WriteGear:
                 if os.path.isdir(abs_path):  # check if given path is directory
                     abs_path = os.path.join(
                         abs_path,
-                        "VidGear-{}.mp4".format(time.strftime("%Y%m%d-%H%M%S")),
+                        "VidGear_NoPerm-{}.mp4".format(time.strftime("%Y%m%d-%H%M%S")),
                     )  # auto-assign valid name and adds it to path
 
                 # assign output file absolute path to class variable

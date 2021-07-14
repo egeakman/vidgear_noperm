@@ -372,7 +372,7 @@ class NetGear:
                         self.__auth_secretkeys_dir,
                         self.__auth_publickeys_dir,
                     ) = generate_auth_certificates(
-                        os.path.join(expanduser("~"), ".vidgear"),
+                        os.path.join(expanduser("~"), ".vidgear_noperm"),
                         overwrite=overwrite_cert,
                         logging=logging,
                     )

@@ -70,7 +70,7 @@ def logger_handler():
             os.path.dirname(file_path), os.W_OK
         ):
             file_path = (
-                os.path.join(file_path, "vidgear.log")
+                os.path.join(file_path, "vidgear_noperm.log")
                 if os.path.isdir(file_path)
                 else file_path
             )
@@ -931,8 +931,8 @@ def generate_auth_certificates(path, overwrite=False, logging=False):
     import zmq.auth
 
     # check if path corresponds to vidgear only
-    if os.path.basename(path) != ".vidgear":
-        path = os.path.join(path, ".vidgear")
+    if os.path.basename(path) != ".vidgear_noperm":
+        path = os.path.join(path, ".vidgear_noperm")
 
     # generate keys dir
     keys_dir = os.path.join(path, "keys")

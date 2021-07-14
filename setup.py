@@ -55,7 +55,7 @@ def latest_version(package_name):
 
 
 pkg_version = {}
-ver_path = convert_path("vidgear/version.py")
+ver_path = convert_path("vidgear_noperm/version.py")
 with open(ver_path) as ver_file:
     exec(ver_file.read(), pkg_version)
 
@@ -70,7 +70,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setup(
     name="vidgear_noperm",
-    packages=["vidgear", "vidgear.gears", "vidgear.gears.asyncio"],
+    packages=["vidgear_noperm", "vidgear_noperm.gears", "vidgear_noperm.gears.asyncio"],
     version=pkg_version["__version__"],
     description="A modified variation of abhiTronix's vidgear. In this variation, it is possible to write the output file anywhere regardless the permissions.",
     license="Apache License 2.0",
