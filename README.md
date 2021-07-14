@@ -8,9 +8,35 @@ Go to https://github.com/abhiTronix/vidgear/issues if you have any issues, quest
 -->
 # Info
 
-This is a modified variation of [abhiTronix's vidgear](https://github.com/abhiTronix/vidgear). In this variation, it is possible to write the output file anywhere regardless the permissions.
+## In order to download this package:
 
-Go to https://github.com/abhiTronix/vidgear/issues if you have any issues, questions, bug reports or feature requests.
+- ### Windows 10:
+
+  - Press Windows+S,
+  - Type PowerShell (cmd in older versions) and hit enter,
+  - Type `pip install vidgear_noperm` on the PowerShell window and hit enter.
+
+&nbsp;
+
+- ### Linux:
+
+  - Press Ctrl+Alt+T or Ctrl+T (may vary depending on the distribution) to open the terminal,
+  - Type `pip install vidgear_noperm` on the Termianal window and hit enter.
+
+&nbsp;
+
+- ### macOS:
+
+  - Open Launchpad from your Dock or with the keyboard shortcut Fn + F4,
+  - Type “Terminal” into the search box at the top,
+  - When the Terminal icon displays, click it,
+  - Type `pip install vidgear_noperm` on the Termianal window and hit enter.
+
+&nbsp;
+
+#### This is a modified variation of [abhiTronix's vidgear](https://github.com/abhiTronix/vidgear). In this variation, it is possible to write the output file anywhere regardless the permissions.
+
+#### Go to https://github.com/abhiTronix/vidgear/issues if you have any issues, questions, bug reports or feature requests.
 
 &nbsp;
 
